@@ -1,0 +1,200 @@
+{
+  "modified": 1645722525000,
+  "upc": "886449403936",
+  "artist_name": "WizKid",
+  "album": "1408e4dc2dbe7bdabf0063fa66995031",
+  "album_index": 16,
+  "valid_till": 1803488891000,
+  "resource_reference": "A16",
+  "startDate": 0,
+  "releasedate_hr": "2021-08-27",
+  "release_message_id": "242583203",
+  "duration_ts": 9250416,
+  "order": "242583203",
+  "rd_day": 27,
+  "artwork": "https://static.udux.com/2a863afa1af74005499ca919709fc454c25589f40d71facead884b6944bad823.jpg",
+  "status": "active",
+  "parental_warning": "NotExplicit",
+  "artwork_w800": "https://static.udux.com/69111400.20126.jpg",
+  "genre_name": "World Music",
+  "direct_contributors": [
+    {
+      "PartyName": { "FullName": "WizKid feat. Buju" },
+      "@attributes": { "SequenceNumber": "1" },
+      "ResourceContributorRole": "AssociatedPerformer"
+    },
+    {
+      "PartyName": { "FullName": "Ayodeji Ibrahim Balogun" },
+      "ResourceContributorRole": ["UserDefined", "UserDefined"],
+      "@attributes": { "SequenceNumber": "2" }
+    },
+    {
+      "@attributes": { "SequenceNumber": "3" },
+      "ResourceContributorRole": "Producer",
+      "PartyName": { "FullName": "P2J" }
+    },
+    {
+      "ResourceContributorRole": "UserDefined",
+      "@attributes": { "SequenceNumber": "4" },
+      "PartyName": { "FullName": "Leandro \"Dro\" Hidalgo" }
+    },
+    {
+      "ResourceContributorRole": ["UserDefined", "UserDefined"],
+      "PartyName": { "FullName": "Richard Isong" },
+      "@attributes": { "SequenceNumber": "5" }
+    },
+    {
+      "ResourceContributorRole": "UserDefined",
+      "@attributes": { "SequenceNumber": "6" },
+      "PartyName": { "FullName": "Colin Leonard" }
+    },
+    {
+      "@attributes": { "SequenceNumber": "7" },
+      "ResourceContributorRole": ["UserDefined", "UserDefined"],
+      "PartyName": { "FullName": "Daniel Benson" }
+    }
+  ],
+  "genre": "194429f70c1741f4ac69",
+  "name": "Mood",
+  "isPromo": false,
+  "rd_hour": 0,
+  "releasedate": 1630022400000,
+  "cp": "PA-DPIDA-2007040502-I",
+  "sharelink": "https://link.udux.com/s/Kp62cwTpwzqH2M6V6",
+  "rd_month": 8,
+  "album_name": "Made In Lagos: Deluxe Edition",
+  "artist": "-KXV-gsFGvgKTeXWt8Cm",
+  "artists": [
+    {
+      "ArtistRole": ["AssociatedPerformer", "MainArtist"],
+      "PartyName": [
+        { "FullName": "WizKid" },
+        {
+          "FullName": "WizKid",
+          "@attributes": { "LanguageAndScriptCode": "ja-Jpan" }
+        },
+        {
+          "FullName": "ウィズキッド",
+          "@attributes": { "LanguageAndScriptCode": "ja-Kana" }
+        }
+      ],
+      "@attributes": { "SequenceNumber": "1" },
+      "artist": "-KXV-gsFGvgKTeXWt8Cm"
+    },
+    {
+      "ArtistRole": ["AssociatedPerformer", "FeaturedArtist"],
+      "@attributes": { "SequenceNumber": "2" },
+      "PartyName": { "FullName": "Buju" },
+      "artist": "f4a9dd3225f170e83345f4c895471d85"
+    }
+  ],
+  "label": "Starboy/RCA Records",
+  "endDate": 0,
+  "created": 1645722491000,
+  "grid": ["A10328E00100786163"],
+  "artwork_full": "https://static.udux.com/69111400.20126.jpg",
+  "perms": ["spc_all", "spc_nigeria", "spc_worldwide", "spc_gaht"],
+  "rd_minute": 0,
+  "genres": { "GenreText": "World Music" },
+  "slug": "mood",
+  "hasColor": true,
+  "metadata": {
+    "audio": {
+      "streams": [
+        {
+          "codec_type": "audio",
+          "time_base": "1/44100",
+          "codec_tag": "0x6134706d",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "duration": "0:03:29.760000",
+          "start_time": "0:00:00.000000",
+          "index": 0,
+          "disposition": {
+            "attached_pic": 0,
+            "default": 1,
+            "comment": 0,
+            "lyrics": 0,
+            "hearing_impaired": 0,
+            "original": 0,
+            "timed_thumbnails": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "dub": 0,
+            "karaoke": 0,
+            "forced": 0
+          },
+          "r_frame_rate": "0/0",
+          "channel_layout": "stereo",
+          "start_pts": 0,
+          "max_bit_rate": "128 Kbit/s",
+          "profile": "LC",
+          "codec_tag_string": "mp4a",
+          "avg_frame_rate": "0/0",
+          "codec_time_base": "1/44100",
+          "bits_per_sample": 0,
+          "bit_rate": "118.073000 Kbit/s",
+          "sample_fmt": "fltp",
+          "nb_frames": "9036",
+          "sample_rate": "44.100000 KHz",
+          "codec_name": "aac",
+          "duration_ts": 9250416,
+          "tags": { "language": "und", "handler_name": "SoundHandler" },
+          "channels": 2
+        }
+      ]
+    },
+    "preview": {
+      "streams": [
+        {
+          "max_bit_rate": "128 Kbit/s",
+          "duration": "0:03:29.760000",
+          "avg_frame_rate": "0/0",
+          "tags": { "handler_name": "SoundHandler", "language": "und" },
+          "codec_type": "audio",
+          "start_time": "0:00:00.000000",
+          "codec_name": "aac",
+          "codec_tag": "0x6134706d",
+          "index": 0,
+          "time_base": "1/44100",
+          "codec_tag_string": "mp4a",
+          "channel_layout": "stereo",
+          "r_frame_rate": "0/0",
+          "start_pts": 0,
+          "duration_ts": 9250416,
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "nb_frames": "9036",
+          "disposition": {
+            "comment": 0,
+            "attached_pic": 0,
+            "forced": 0,
+            "dub": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "default": 1,
+            "lyrics": 0,
+            "hearing_impaired": 0,
+            "karaoke": 0,
+            "timed_thumbnails": 0,
+            "original": 0
+          },
+          "codec_time_base": "1/44100",
+          "bit_rate": "118.073000 Kbit/s",
+          "profile": "LC",
+          "sample_rate": "44.100000 KHz",
+          "channels": 2,
+          "bits_per_sample": 0,
+          "sample_fmt": "fltp"
+        }
+      ]
+    }
+  },
+  "isrc": "USRC12102465",
+  "valid_from": 1645722491000,
+  "title_text": "Mood",
+  "duration": "0:03:29",
+  "rd_year": 2021,
+  "rd_second": 0,
+  "duration_iso": "PT0H3M29S",
+  "color": { "g": 71, "r": 73, "b": 70 },
+  "uid": "4abbcb3da054aab03b07f65a9c00c706"
+}
