@@ -8,31 +8,23 @@ firebaseadmin.initializeApp({
 });
 const firebase = firebaseadmin.firestore();
 
-firebase
-  .collection("/tracks")
-  .where("cp", "==", "PA-DPIDA-2007040502-I")
-  .limit(100)
-  .get()
-  .then((snapshot) => {
-    console.log(snapshot.docs.length);
-  });
-
 async function paginateRequests() {
   let hasMoreDocs = true;
   let startAfter = null;
   let pageSize = 500;
 
   let totalDocuments = 0;
+  const mathcedIds = {};
   const collectionName = "playlists";
   while (hasMoreDocs) {
-    const query = firebase
+    let query = firebase
       .collection(collectionName)
       //   .where("cp", "=", "PA-DPIDA-2007040502-I")
       .orderBy("created", "desc")
       .limit(pageSize);
 
     if (startAfter) {
-      query.startAfter(startAfter);
+      query = query.startAfter(startAfter);
     }
 
     const snapshot = await query.get();
@@ -46,6 +38,11 @@ async function paginateRequests() {
     let batch = firebase.batch();
     await Promise.all(
       snapshot.docs.map(async (doc) => {
+        if (!mathcedIds[doc.id]) {
+          mathcedIds[doc.id] = 1;
+        } else {
+          console.log("ID already matched: %s", doc.id);
+        }
         const docRef = firebase.collection(collectionName).doc(doc.id);
         const updatedTracks = {};
         const docData = doc.data();
@@ -84,7 +81,7 @@ async function paginateRequests() {
         //   Update the playlist batch
         batch.update(docRef, {
           tracks: updatedTracks,
-          prevTracks: docData.tracks,
+          prevTracks: docData.tracks || {},
         });
       })
     );

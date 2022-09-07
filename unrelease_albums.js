@@ -32,7 +32,7 @@ async function paginateRequests() {
       .limit(pageSize);
 
     if (startAfter) {
-      query.startAfter(startAfter);
+      query = query.startAfter(startAfter);
     }
 
     const snapshot = await query.get();
