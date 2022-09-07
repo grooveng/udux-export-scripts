@@ -25,7 +25,7 @@ async function paginateRequests() {
   let totalDocuments = 0;
   const collectionName = "albums";
   while (hasMoreDocs) {
-    const query = firebase
+    let query = firebase
       .collection(collectionName)
       .where("cp", "=", "PA-DPIDA-2007040502-I")
       .orderBy("created", "desc")
