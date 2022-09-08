@@ -24,6 +24,7 @@ const generateReport = async (start, end, count, data, type = "weekly") => {
 
   const distrubutionTypeKey = 20;
   const transactionTypeKey = 10;
+  const serviceTypeKey = 10;
   const grossUnits = 1;
   const returnedUnits = 0;
   let totalStandardSales = 0;
@@ -99,7 +100,7 @@ const generateReport = async (start, end, count, data, type = "weekly") => {
           stat.targetID
         }${sep}${track.upc}${sep}${track.order}${sep}${track.upc}${sep}${
           track.grid
-        }${sep} ${productType}${sep}${grossUnits}${sep}${returnedUnits}${sep}${wpu}${sep}${currency}${sep}${wpu}${sep}${rpu}${sep}${currency}${sep}${vat}${sep}${currency}${sep}${copyrightIndicator}${sep}${distrubutionTypeKey}${sep}${transactionTypeKey}${sep}${
+        }${sep} ${productType}${sep}${grossUnits}${sep}${returnedUnits}${sep}${wpu}${sep}${currency}${sep}${wpu}${sep}${rpu}${sep}${currency}${sep}${vat}${sep}${currency}${sep}${copyrightIndicator}${sep}${distrubutionTypeKey}${sep}${transactionTypeKey}${sep}${serviceTypeKey}${sep}${
           track.direct_contributors[0].PartyName.FullName
         }${sep}${album.name}${sep}${track.name}${sep}${mediaKey}${sep}${sep}${
           stat.owner
